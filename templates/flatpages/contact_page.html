@@ -1,0 +1,12 @@
+{% extends 'flatpages/default.html' %}
+ 
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+ 
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+<font face="Monotype Corsiva" size="+4" color="fuchsia"> Наши контакты:</font>
+{{ flatpage.content }}
+{% endblock content %}
